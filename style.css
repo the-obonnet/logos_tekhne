@@ -1,0 +1,498 @@
+/*GENERAL*/
+
+@font-face {
+font-family: "Everett Jana", "Everett Light", "Everett Medium";
+src:url(FONT/Everett-Light.otf);
+src: url(FONT/Everett-Medium.otf);
+src: url(FONT/Everett-Regular.otf);
+}
+
+@font-face {
+font-family: "Roxborough CF", "Roxborough CF Bold", "Roxborough CF Demi Bold", "Roxborough CF Extra Bold", "Roxborough CF Heavy", "Roxborough CF Light", "Roxborough CF Medium", "Roxborough CF Thin";
+src:url(FONT/RoxboroughCF-ThinItalic.otf);
+src: url(FONT/RoxboroughCF-Thin.otf);
+src: url(FONT/RoxboroughCF-RegularItalic.otf);
+src: url(FONT/RoxboroughCF-Regular.otf);
+src: url(FONT/RoxboroughCF-MediumItalic.otf);
+src: url(FONT/RoxboroughCF-Medium.otf);
+src: url(FONT/RoxboroughCF-LightItalic.otf);
+src: url(FONT/RoxboroughCF-Light.otf);
+src: url(FONT/RoxboroughCF-HeavyItalic.otf);
+src: url(FONT/RoxboroughCF-Heavy.otf);
+src: url(FONT/RoxboroughCF-ExtraBoldItalic.otf);
+src: url(FONT/RoxboroughCF-ExtraBold.otf);
+src: url(FONT/RoxboroughCF-DemiBoldItalic.otf);
+src: url(FONT/RoxboroughCF-DemiBold.otf);
+src: url(FONT/RoxboroughCF-BoldItalic.otf);
+src: url(FONT/RoxboroughCF-Bold.otf);
+}
+.MAIL {
+		font-size: 4vw;
+	font-family: 'Everett Medium', sans-serif;
+	white-space: pre-line;
+	text-align: justify;
+	text-justify: inter-word;
+	text-transform: uppercase;
+}
+
+.IMAGE {
+font-family: 'Everett Light', sans-serif;
+display: none;
+font-size: 100%;
+text-align: left;
+background-blend-mode: darken;
+}
+
+.ITALIQUE {
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+}
+
+.body{
+	background-color: #CCCCCC;
+}
+
+.CITATION {
+	text-decoration: underline;
+}
+
+.CITATION:hover {
+	color:#3B3B3B;
+	cursor: crosshair;
+}
+
+p {
+	font-family: 'Everett Light', sans-serif;
+	white-space:pre-line;
+	text-indent: -1em;
+	margin-left: 1em;
+	font-size: 2vw;
+	line-height: 2vw;
+	text-align: justify;
+}
+p::first-letter{
+	font-size: 4vw;
+}
+
+.MENU {
+	position: fixed;
+	background-color:#9E0002;
+}
+
+.ANNEXE {
+	position:fixed; 
+	background-color: #99A5AD;
+}
+
+.SOMMAIRE{
+	font-size: 1.15vw;
+	font-family: 'Everett Light', sans-serif;
+	white-space:pre;
+	text-align: justify;
+	text-justify: inter-word;
+	display: none; 
+}
+
+button {
+	font-family: 'Everett Light', sans-serif;
+	background-color:transparent;
+	border: none;
+	font-size: 1.5vw;
+	text-decoration: underline;	
+}
+
+button:hover {
+	cursor: crosshair;
+}
+
+.TITRE{
+	font-size: 4vw;
+	font-family: 'Everett Medium', sans-serif;
+	white-space: pre-line;
+	text-align: justify;
+	text-justify: inter-word;
+	text-transform: uppercase;
+}
+.SOUSTITRE{
+	font-size: 4vw;
+	font-family: 'Everett Jana', sans-serif;
+	white-space: pre-line;
+	text-transform: uppercase;
+}
+.SOUSSOUTITRE{
+	font-size: 4vw;
+	font-family: 'Everett Light', sans-serif;
+	white-space: pre-line;
+	text-transform: uppercase;
+}
+.GUILLEMETS{
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+}
+.CITATIONBRETON{
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+	font-size: 2vw;
+	text-transform: uppercase;
+	text-align: left;
+}
+.CITATIONONG{
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+	font-size: 2vw;
+	text-transform: uppercase;
+	text-align: left;
+}
+.CITATIONNICOLE{
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+	font-size: 2vw;
+}
+.CITATIONMARSHALL{
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+	font-size: 2vw;
+	text-transform: uppercase;
+	text-align: left;
+}
+.CITATIONDIETER{
+	font-style: italic;
+	font-family: 'Roxborough CF Thin', serif;
+	font-size: 2vw;
+	text-transform: uppercase;
+	text-align: left;
+}
+/*GENERAL*/
+
+/*SOMMAIRE*/
+body.Sommaire-mode .SOMMAIRE {
+	display:inherit;
+}
+body.light-mode .SOMMAIRE {
+	display:  none;
+}
+/*SOMMAIRE*/
+
+/*ABSTRACT MODE*/
+body.Abstract-mode #INTRO {
+display: none;
+}
+body.Abstract-mode #PARTIE1 {
+display: none;
+}
+body.Abstract-mode #PARTIE2 {
+display: none;
+}
+body.Abstract-mode #PARTIE3 {
+display: none;
+}
+body.Abstract-mode #PARTIE4 {
+display: none;
+}
+body.Abstract-mode #CONCLU{
+display: none;
+}
+/*ABSTRACT MODE*/
+
+/*INTRO MODE*/
+body.Intro-mode #ABSTRACT {
+display: none;
+}
+body.Intro-mode #PARTIE1 {
+display: none;
+}
+body.Intro-mode #PARTIE2 {
+display: none;
+}
+body.Intro-mode #PARTIE3 {
+display: none;
+}
+body.Intro-mode #PARTIE4 {
+display: none;
+}
+body.Intro-mode #CONCLU{
+display: none;
+}
+/*INTRO MODE*/
+
+/*PARTIE1 MODE*/
+body.Partie1-mode #ABSTRACT {
+display: none;
+}
+body.Partie1-mode #INTRO {
+display: none;
+	
+}
+body.Partie1-mode #PARTIE2 {
+display: none;
+	
+}
+body.Partie1-mode #PARTIE3 {
+display: none;
+	
+}
+body.Partie1-mode #PARTIE4 {
+display: none;
+	
+}
+body.Partie1-mode #CONCLU{
+display: none;
+	
+}
+/*PARTIE1 MODE*/
+
+/*PARTIE2 MODE*/
+body.Partie2-mode #ABSTRACT {
+display: none;
+
+}
+body.Partie2-mode #PARTIE1 {
+display: none;
+	
+}
+body.Partie2-mode #INTRO {
+display: none;
+	
+}
+body.Partie2-mode #PARTIE3 {
+display: none;
+	
+}
+body.Partie2-mode #PARTIE4 {
+display: none;
+	
+}
+body.Partie2-mode #CONCLU{
+display: none;
+	
+}
+/*PARTIE2 MODE*/
+
+/*PARTIE3 MODE*/
+body.Partie3-mode #ABSTRACT {
+display: none;
+
+}
+body.Partie3-mode #PARTIE1 {
+display: none;
+	
+}
+body.Partie3-mode #INTRO {
+display: none;
+	
+}
+body.Partie3-mode #PARTIE2 {
+display: none;
+	
+}
+body.Partie3-mode #PARTIE4 {
+display: none;
+	
+}
+body.Partie3-mode #CONCLU{
+display: none;
+	
+}
+/*PARTI3 MODE*/
+
+/*PARTIE4 MODE*/
+body.Partie4-mode #ABSTRACT {
+display: none;
+
+}
+body.Partie4-mode #PARTIE1 {
+display: none;
+	
+}
+body.Partie4-mode #INTRO {
+display: none;
+	
+}
+body.Partie4-mode #PARTIE3 {
+display: none;
+	
+}
+body.Partie4-mode #PARTIE2 {
+display: none;
+	
+}
+body.Partie4-mode #CONCLU{
+display: none;
+	
+}
+
+/*PARTIE4 MODE*/
+
+/*CONCLU MODE*/
+body.Conclu-mode #ABSTRACT {
+display: none;
+
+}
+body.Conclu-mode #PARTIE1 {
+display: none;
+	
+}
+body.Conclu-mode #INTRO {
+display: none;
+	
+}
+body.Conclu-mode #PARTIE3 {
+display: none;
+	
+}
+body.Conclu-mode #PARTIE4 {
+display: none;
+	
+}
+body.Conclu-mode #PARTIE2{
+display: none;
+	
+}
+/*CONCLU MODE*/
+
+/*GRILLE*/
+
+[class*='grid'],
+[class*='col-'],
+[class*='mobile-'],
+.grid:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+[class*='col-'] {
+	float: left;
+  	min-height: 1px;
+	padding-right: 20px; /* column-space */
+}
+
+[class*='col-'] [class*='col-']:last-child {
+	padding-right: 0;
+}
+
+.grid {
+	width: 100%;
+	max-width: 2000px; /*1140px*/
+	min-width: 748px; /* when using padded grid on ipad in portrait mode, width should be viewport-width - padding = (768 - 20) = 748. actually, it should be even smaller to allow for padding of grid containing element */
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.grid-pad {
+	padding-right: 0; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+}
+
+.push-right {
+	float: right;
+}
+
+.col-1-1 {
+	width: 100%;
+}
+
+.col-1-3 {
+	width: 20%;
+}
+
+.col-2-4 {
+	width: 60%;
+}
+
+.push-1-3 {
+	margin-left: 33.33%;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+	.grid {
+		width: 100%;
+		min-width: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 20px; /* grid-space to left */
+		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+	}
+
+	[class*='col-'] {
+		width: auto;
+		float: none;
+		margin: 10px 0;
+		padding-left: 0;
+		padding-right: 10px; /* column-space */
+	}
+
+	[class*='col-'] [class*='col-'] {
+		padding-right: 0;
+	}
+
+	/* Mobile Layout */
+
+	[class*='mobile-col-'] {
+		float: left;
+		margin: 0 0 10px;
+		padding-left: 0;
+		padding-right: 10px; /* column-space */
+		padding-bottom: 0;
+	}
+
+	.mobile-col-1-1 {
+		width: 100%;
+	}
+	
+	.mobile-col-1-3 {
+		width: 40.33%;
+	}
+
+	.hide-on-mobile {
+		display: none !important;
+		width: 0;
+		height: 0;
+	}
+}
+
+.LETTRINE{
+	font-family: 'Roxborough CF Thin', 'serif';
+	font-style:italic;
+}
+
+
+.MAIL{
+	float: right;
+}
+
+.CREDIT {
+	font-family: "Roxborough CF Thin";
+	font-size: 1.2vw;
+}
+
+#HOME {
+	text-align: center;
+	white-space: pre-line;
+	color: black;
+}
+
+.TITREHOME {
+	font-family: 'Everett Light', sans-serif;
+	font-size: 8vw;
+	white-space: pre-line;
+	text-align: center;
+	line-height: 7vw;
+	color: black;
+}
+
+.SERIF {
+	font-family: "Roxborough CF Thin";
+}
+
+.texte {
+	font-family: 'Everett Light', sans-serif;
+}
+
+/*GRILLE*/
+
