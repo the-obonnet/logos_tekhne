@@ -2,29 +2,29 @@
 
 @font-face {
 font-family: "Everett Jana", "Everett Light", "Everett Medium";
-src:url(FONT/Everett-Light.otf);
-src: url(FONT/Everett-Medium.otf);
-src: url(FONT/Everett-Regular.otf);
+src:url(FONT/Everett-Light.woff2);
+src: url(FONT/Everett-Medium.woff2);
+src: url(FONT/Everett-Regular.woff2);
 }
 
 @font-face {
 font-family: "Roxborough CF", "Roxborough CF Bold", "Roxborough CF Demi Bold", "Roxborough CF Extra Bold", "Roxborough CF Heavy", "Roxborough CF Light", "Roxborough CF Medium", "Roxborough CF Thin";
-src:url(FONT/RoxboroughCF-ThinItalic.otf);
-src: url(FONT/RoxboroughCF-Thin.otf);
-src: url(FONT/RoxboroughCF-RegularItalic.otf);
-src: url(FONT/RoxboroughCF-Regular.otf);
-src: url(FONT/RoxboroughCF-MediumItalic.otf);
-src: url(FONT/RoxboroughCF-Medium.otf);
-src: url(FONT/RoxboroughCF-LightItalic.otf);
-src: url(FONT/RoxboroughCF-Light.otf);
-src: url(FONT/RoxboroughCF-HeavyItalic.otf);
-src: url(FONT/RoxboroughCF-Heavy.otf);
-src: url(FONT/RoxboroughCF-ExtraBoldItalic.otf);
-src: url(FONT/RoxboroughCF-ExtraBold.otf);
-src: url(FONT/RoxboroughCF-DemiBoldItalic.otf);
-src: url(FONT/RoxboroughCF-DemiBold.otf);
-src: url(FONT/RoxboroughCF-BoldItalic.otf);
-src: url(FONT/RoxboroughCF-Bold.otf);
+src:url(FONT/RoxboroughCF-ThinItalic.woff2);
+src: url(FONT/RoxboroughCF-Thin.woff2);
+src: url(FONT/RoxboroughCF-RegularItalic.woff2);
+src: url(FONT/RoxboroughCF-Regular.woff2);
+src: url(FONT/RoxboroughCF-MediumItalic.woff2);
+src: url(FONT/RoxboroughCF-Medium.woff2);
+src: url(FONT/RoxboroughCF-LightItalic.woff2);
+src: url(FONT/RoxboroughCF-Light.woff2);
+src: url(FONT/RoxboroughCF-HeavyItalic.woff2);
+src: url(FONT/RoxboroughCF-Heavy.woff2);
+src: url(FONT/RoxboroughCF-ExtraBoldItalic.woff2);
+src: url(FONT/RoxboroughCF-ExtraBold.woff2);
+src: url(FONT/RoxboroughCF-DemiBoldItalic.woff2);
+src: url(FONT/RoxboroughCF-DemiBold.woff2);
+src: url(FONT/RoxboroughCF-BoldItalic.woff2);
+src: url(FONT/RoxboroughCF-Bold.woff2);
 }
 .MAIL {
 		font-size: 4vw;

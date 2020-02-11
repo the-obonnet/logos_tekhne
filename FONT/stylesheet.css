@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-MediumItalic.woff2') format('woff2'),
+        url('RoxboroughCF-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Regular.woff2') format('woff2'),
+        url('RoxboroughCF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Everett';
+    src: url('Everett-Regular.woff2') format('woff2'),
+        url('Everett-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-LightItalic.woff2') format('woff2'),
+        url('RoxboroughCF-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-ThinItalic.woff2') format('woff2'),
+        url('RoxboroughCF-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Demi';
+    src: url('RoxboroughCF-DemiBold.woff2') format('woff2'),
+        url('RoxboroughCF-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Medium.woff2') format('woff2'),
+        url('RoxboroughCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Everett';
+    src: url('Everett-Light.woff2') format('woff2'),
+        url('Everett-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Light.woff2') format('woff2'),
+        url('RoxboroughCF-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-HeavyItalic.woff2') format('woff2'),
+        url('RoxboroughCF-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Heavy.woff2') format('woff2'),
+        url('RoxboroughCF-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Extra';
+    src: url('RoxboroughCF-ExtraBoldItalic.woff2') format('woff2'),
+        url('RoxboroughCF-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Bold.woff2') format('woff2'),
+        url('RoxboroughCF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-RegularItalic.woff2') format('woff2'),
+        url('RoxboroughCF-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Demi';
+    src: url('RoxboroughCF-DemiBoldItalic.woff2') format('woff2'),
+        url('RoxboroughCF-DemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roxborough CF Extra';
+    src: url('RoxboroughCF-ExtraBold.woff2') format('woff2'),
+        url('RoxboroughCF-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-BoldItalic.woff2') format('woff2'),
+        url('RoxboroughCF-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Everett';
+    src: url('Everett-Medium.woff2') format('woff2'),
+        url('Everett-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Thin.woff2') format('woff2'),
+        url('RoxboroughCF-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
